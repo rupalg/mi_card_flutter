@@ -1,5 +1,13 @@
 ![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
 
+## My Learnings
+1. Dealing with the "remote origin already exists" error: https://www.cloudbees.com/blog/remote-origin-already-exists-error
+2. Understand syntax of how certain widgets are written, e.g. for https://api.flutter.dev/flutter/rendering/MainAxisAlignment.html, mainAxisAlignment: MainAxisAlignment.center is the appropriate syntax
+
+## My Questions
+1. 
+
+------------------
 # Mi Card
 
 ## Our Goal
