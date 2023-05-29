@@ -1,4 +1,3 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
 
 ## My Learnings
 1. Dealing with the "remote origin already exists" error: https://www.cloudbees.com/blog/remote-origin-already-exists-error

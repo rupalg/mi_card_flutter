@@ -13,31 +13,87 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-            child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Container(
-              width: 100,
-              color: Colors.red,
-            ),
-            Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.yellow,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              CircleAvatar(
+                radius: 60,
+                backgroundImage: AssetImage('images/rupal.png'),
               ),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.green,
+              Text(
+                'Rupal Gupta',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 30,
+                  fontFamily: 'Pangolin',
+                  color: Colors.white,
+                ),
               ),
-            ]),
-            Container(
-              width: 100,
-              color: Colors.blue,
-            ),
-          ],
-        )), //this is very similar to a div
+              Text(
+                'Product Manager',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontFamily: 'Pangolin',
+                  color: Colors.white,
+                ),
+              ),
+              Card(
+                // padding: EdgeInsets.all(10.0),
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+                color: Color(0xFFD1C4E9),
+                child: Padding(
+                  padding: EdgeInsets.all(10),
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.mail,
+                        color: Color(0xFF512DA8),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Text(
+                        'rupalgupta99@gmail.com',
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontFamily: 'Pangolin',
+                          color: Color(0xFF512DA8),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              Card(
+                // padding: EdgeInsets.all(10.0),
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+                color: Color(0xFFD1C4E9),
+                child: Padding(
+                  padding: EdgeInsets.all(10),
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.person,
+                        color: Color(0xFF512DA8),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Text(
+                        'https://www.linkedin.com/in/rupal-gupta-164821100/',
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontFamily: 'Pangolin',
+                          color: Color(0xFF512DA8),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ), //this is very similar to a div
       ),
     );
   }
